@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/productos.css">
+</head>
+<body>
+    <header>
+
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./productos.html">Productos</a></li>
+                <li><a href="./sucursales.html">Sucursales</a></li>
+            </ul>
+        </nav>
+
+    </header>
+   
+    <h1> Estamos en la pàgina de productos</h1>
+
+    <h2> Sugerencias de Nombres de Archivos y de Carpetas</h2>
+
+    <h2>NO</h2>
+    <h3>mi pagina.html</h3>
+    <h3>123mi pagina.html</h3>
+    <h3>mi-pàgina.html</h3>
+
+    <h2>SI</h2>
+    <h3>mipagina.html</h3>
+    <h3>mi-pagina.html</h3>
+
+<hr>
+<hr>
+<br>
+<h2>Formulario de contacto</h2>
+<h3>Datos personales</h3>
+
+<!-- <form action="./backend/guardarInfo"> -->
+    <form id="formulario">
+    <label for="nombre">Nombre:</label>
+    <input type="text" name="nombre">
+    <br>
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+    <br>
+    <label for="password">Password:</label>
+    <input type="password" name="password" id="password" minlength="6" maxlength="12" required> <button>Ver</button>
+    <br>
+    <label for="edad">Edad:</label>
+    <input type="number" name="edad" id="">
+    <br>
+    <label for="date">Año de nacimiento</label>
+    <input type="date" name="date" id="date">
+    <br>
+    <label for="apellido">Apellido:</label>
+    <input type="text" name="apellido">
+    <br>
+    <label for="dirección">Dirección:</label>
+    <input type="text" name="direccion" placeholder="Mi dirección es...">
+    <br>
+    <label for="provincia">Provincia:</label>
+    <input type="text" name="provincia">
+    <br>
+    <label for="pais">País:</label>
+    <input type="text" name="pais">
+    
+    <div>
+        <label for="pais">Pais de Nacimiento:</label>
+        <select name="pais" id="pais" required>
+            <optgroup>
+                <option value="Argentina">Argentina</option>
+                <option value="Brazil">Brazil</option>
+                <option value="Peru">Peru</option>
+                <option value="Colombia">Colombia</option>
+            </optgroup>
+        </select>
+    </div>
+
+    
+    <div>
+        <label for="genero">Genero:</label>
+        <div>
+            <input type="radio" name="genero" value="hombre"> Hombre
+            <input type="radio" name="genero" value="mujer"> Mujer
+            <input type="radio" name="genero" value="otro"> otro
+        </div>
+    </div>
+    <div>
+        <input type="checkbox" name="aceptar"> Aceptar Condiciones
+    </div>
+    
+   <!-- <button>Enviar</button> -->
+   <p> 
+    <input type="submit" value="Enviar datos">
+   </p> 
+    
+</form>
+
+<br>
+
+<hr>
+<br>
+<hr>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.7204610907706!2d-58.51778538502344!3d-34.71222997075419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccf23c143cd7d%3A0xb0ecc040b501a4af!2sPilcomayo%201050%2C%20B1785AVG%20Aldo%20Bonzi%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1679686849889!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<br>
+
+</body>
+</html>

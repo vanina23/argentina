@@ -1,0 +1,11 @@
+/* alt + shift + a = comentarios en CSS */
+/* Caracteristicas de las hojas de estilo*/
+/* 1. Selector: Es el elemento HTML al que le voy a dar estilo*/
+/* 2. Propiedad: si le voy a dar color, fondo, tamaño, letra, etc. */
+/* 3. Valor: que le asigno a la propiedad ej: fondo (propiedad): verde (valor) */
+
+/*  Sintaxis de CSS*/
+
+body{
+    background: rgb(240, 154, 154);
+}
