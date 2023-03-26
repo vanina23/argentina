@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clase 01 - HTML</title>
     <link rel="stylesheet" href="./css/index.css">
+    <!-- Link de google font fuente externa -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
  <!-- Estructuras semanticas -->
@@ -47,7 +51,7 @@
         <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio harum neque porro facere, dolorum praesentium esse? Voluptatum et maxime delectus dolores tempore ratione sed, iure unde at accusamus blanditiis culpa.
         </p>
-        <p>
+        <p id="unicoparrafo">
             Lorem, ipsum dolor sit amet <a href="./pages/productos.html#formulario"> Vamos al formulario </a> consectetur adipisicing elit. Suscipit ducimus, doloribus nisi, sed laudantium tempore, odio facere eaque dolorem deserunt itaque officia quas magni perferendis enim veritatis laborum. Dolore, sapiente!
         </p>q
         <h3>Listas de plantas</h3>
@@ -65,7 +69,10 @@
 
 <!-- insertar una imagen -->
 <!-- archivos externos -->
-<img src="https://okdiario.com/img/2019/10/02/reproducir-plantas-suculentas.jpg">
+<div class="centrarimagen">
+    <img src="https://okdiario.com/img/2019/10/02/reproducir-plantas-suculentas.jpg">
+</div>
+
 <!-- insertar un video externo -->
 <video src=""></video>
 
@@ -78,7 +85,7 @@
 <h2>Los planetas</h2>
 
 <!-- etiquetas de parrafos -->
-<p>
+<p class="primerParrafo">
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit repudiandae nulla quae qui delectus. Laudantium beatae voluptatem dolorem molestias facilis odio soluta. Corporis eos sapiente beatae dignissimos sit esse aut!
 </p>
 
@@ -86,6 +93,9 @@
 <p>
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium assumenda praesentium perspiciatis, maiores nemo mollitia, accusantium cupiditate porro sapiente dicta ut deleniti, voluptatibus nobis! Veniam quo voluptatum necessitatibus earum inventore.
 </p>
+<p class="tercerParrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus saepe quae repellendus libero sapiente ratione ducimus quos minima eos corrupti repudiandae, ullam qui sequi, quo, ab consectetur officiis placeat inventore!</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis consectetur quaerat, commodi beatae esse excepturi tempore omnis necessitatibus ut ipsa numquam magni illo alias praesentium velit corrupti rem et!</p>
+
 <!-- Listas ordenadas -->
 <ol><!-- elemento padre -->
     <li>Planeta uno</li>

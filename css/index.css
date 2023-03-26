@@ -4,8 +4,49 @@
 /* 2. Propiedad: si le voy a dar color, fondo, tamaño, letra, etc. */
 /* 3. Valor: que le asigno a la propiedad ej: fondo (propiedad): verde (valor) */
 
-/*  Sintaxis de CSS*/
+/* RESETEO DE ESTILOS */
 
-body{
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/*  Sintaxis de CSS*/
+/* Selector global */
+body{ 
     background: rgb(240, 154, 154);
+}
+h1{ /*Selector global  */
+    color:rgb(52, 170, 82);
+}
+
+/* Selector de clases */
+.primerParrafo{
+    color: blueviolet;
+    border-right: solid 10px red;
+    border-left: solid 5px yellow;
+    border-top: solid 6px blue;
+    border-bottom: solid 1px black;
+    font-family: 'Alkatra', cursive;
+    }
+    
+/* Selector de clses */
+.tercerParrafo{
+    color: brown;
+}
+
+/* Selector de ID */
+#unicoparrafo{
+    color: rgb(216, 13, 13);
+}
+/* Centrar una imagen */
+.centrarimagen{
+    text-align: center;
+}
+
+img {
+    height: 250px;
+    width: 500px;
 }
