@@ -1,0 +1,43 @@
+body{
+    background: rgb(224, 243, 115);
+}
+
+h1{
+    text-align: center;
+}
+
+img{
+    width: 150 px;
+    height: 150px ;
+}
+
+/* Flex Box */
+
+/* Siempre apuntamos a la clase Padre */
+
+.padre {
+    display: flex;
+    padding: 50px;
+    /* flex-wrap: da un enter cuando se acaba el ancho de pantalla */
+    flex-wrap: wrap;
+    /* flex-direction: row; no hace falta ponerlo viene por default */
+    /* flex-wrap:nowrap; no hace falta ponerlo viene por default */
+    /* flex-wrap:column; queda sin organizacion en una sola columna */
+    /* flex-direction: row-reverse; me coloca todas las imagenes en el oreden contrario al que estaban */
+    justify-content: space-between;
+
+}
+
+.hijo {
+    border: solid 2px black;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.pasoraton:hover {
+    background: blue;
+    width: 500px;
+    height: 500px;
+    color: white;
+
+}
